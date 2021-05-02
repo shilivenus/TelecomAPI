@@ -8,7 +8,10 @@ import belong.telecom.models.PhoneNumber;
 
 @Component
 public interface IPhoneNumberGenerator {
+
   boolean activatePhoneNumber(String phoneNumber);
+
   List<PhoneNumber> getAllPhoneNumbers();
+
   List<PhoneNumber> getSingleCustomerPhoneNumber(int customerId);
 }
